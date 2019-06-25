@@ -7,6 +7,9 @@
 //
 
 #import "Algorithm.h"
+// 经典排序
+#include "Sort/AL_quickSort.cpp"
+#include "Sort/AL_bubbleSort.cpp"
 // 剑指Offer
 #include "Jianzhioffer/AL_TwoArrayFind.cpp"
 #include "Jianzhioffer/AL_ReplaceSpace.cpp"
@@ -24,21 +27,54 @@
 
 @implementation Algorithm
 
-- (void)run
-{
-//    twoArrayFind_test();
-//    replaceSpace_test();
-//    printListFromTailToHead_test();
-//    reConstructBinaryTree_test();
-//    customQueue_test();
-    minNumberInRotateArray_test();
-    
-//    twoSum_test();
-//    addTwoNumbers_test();
-//    lengthOfLongestSubstring_test();
-}
-
 - (void)dealloc {}
 
-@end
+- (void)run
+{
+    [self sort];
+    [self jianzhioffer];
+    [self leetcode];
+}
 
+#pragma mark - 剑指Offer
+- (void)sort
+{
+    quickSort_test();
+    bubbleSrot_test();
+}
+
+#pragma mark - 剑指Offer
+-(void)jianzhioffer
+{
+#pragma mark - 003二维数组中的查找
+    //    twoArrayFind_test();
+    
+#pragma mark - 004-替换空格
+    //    replaceSpace_test();
+    
+#pragma mark - 005-从尾到头打印链表
+    //    printListFromTailToHead_test();
+    
+#pragma mark - 006-重建二叉树
+    reConstructBinaryTree_test();
+    
+#pragma mark - 007-用两个栈实现队列
+    //    customQueue_test();
+    
+#pragma mark - 008-旋转数组的最小数字
+//    minNumberInRotateArray_test();
+}
+
+#pragma mark - Leetcode
+- (void)leetcode
+{
+    
+#pragma mark -
+    //    twoSum_test();
+#pragma mark -
+    //    addTwoNumbers_test();
+#pragma mark -
+    //    lengthOfLongestSubstring_test();
+}
+
+@end

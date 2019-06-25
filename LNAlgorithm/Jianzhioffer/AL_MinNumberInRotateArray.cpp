@@ -32,8 +32,8 @@ static int MinOrder(vector<int> &num, int low, int high)
         if(num[i] < result)
         {
             result = num[i];
-        }//if
-    }//for
+        }
+    }
     return result;
 }
 
