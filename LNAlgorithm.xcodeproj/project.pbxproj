@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2EA7E422C4FB8E007D6A8B /* AL_InvertTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7E322C4FB8E007D6A8B /* AL_InvertTree.cpp */; };
+		AF2EA7E622C4FD4B007D6A8B /* AL_MaxDepthTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7E522C4FD4B007D6A8B /* AL_MaxDepthTree.cpp */; };
+		AF2EA7E822C4FFA4007D6A8B /* AL_BalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7E722C4FFA4007D6A8B /* AL_BalancedTree.cpp */; };
+		AF2EA7EA22C507DF007D6A8B /* AL_SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7E922C507DF007D6A8B /* AL_SymmetricTree.cpp */; };
+		AF2EA7EC22C50B28007D6A8B /* AL_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EB22C50B28007D6A8B /* AL_SameTree.cpp */; };
+		AF2EA7EE22C516C0007D6A8B /* AL_ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7ED22C516C0007D6A8B /* AL_ReverseString.cpp */; };
+		AF2EA7F022C52277007D6A8B /* AL_HasCycleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EF22C52277007D6A8B /* AL_HasCycleList.cpp */; };
 		AFD5E5C122BB871E003AD25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD5E5C022BB871E003AD25F /* main.m */; };
 		AFD5E5CA22BB8764003AD25F /* Algorithm.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFD5E5C722BB8764003AD25F /* Algorithm.mm */; };
-		AFE6F6C822C0CE1C0030B3C1 /* AL_quickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFE6F6C722C0CE1C0030B3C1 /* AL_quickSort.cpp */; };
-		AFE6F6CA22C0E63F0030B3C1 /* AL_bubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFE6F6C922C0E63F0030B3C1 /* AL_bubbleSort.cpp */; };
+		AFFEE26222CD07BA0049540F /* AL_Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26122CD07BA0049540F /* AL_Fibonacci.cpp */; };
+		AFFEE26422CD105F0049540F /* AL_GetIntersectionNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26322CD105F0049540F /* AL_GetIntersectionNode.cpp */; };
+		AFFEE26622CDA51D0049540F /* AL_OtherSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26522CDA51D0049540F /* AL_OtherSort.cpp */; };
+		AFFEE26822CDA97B0049540F /* AL_UglyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26722CDA97B0049540F /* AL_UglyNumber.cpp */; };
+		AFFEE26A22CDAB350049540F /* AL_PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26922CDAB350049540F /* AL_PowerOfTwo.cpp */; };
+		AFFEE26C22CDAB5B0049540F /* AL_PowerOfThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26B22CDAB5B0049540F /* AL_PowerOfThree.cpp */; };
+		AFFEE26E22CDAB8E0049540F /* AL_CountPrimes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26D22CDAB8E0049540F /* AL_CountPrimes.cpp */; };
+		AFFEE27722CDD7560049540F /* AL_Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE27622CDD7560049540F /* AL_Sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +39,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF2EA7E322C4FB8E007D6A8B /* AL_InvertTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_InvertTree.cpp; sourceTree = "<group>"; };
+		AF2EA7E522C4FD4B007D6A8B /* AL_MaxDepthTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_MaxDepthTree.cpp; sourceTree = "<group>"; };
+		AF2EA7E722C4FFA4007D6A8B /* AL_BalancedTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_BalancedTree.cpp; sourceTree = "<group>"; };
+		AF2EA7E922C507DF007D6A8B /* AL_SymmetricTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_SymmetricTree.cpp; sourceTree = "<group>"; };
+		AF2EA7EB22C50B28007D6A8B /* AL_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_SameTree.cpp; sourceTree = "<group>"; };
+		AF2EA7ED22C516C0007D6A8B /* AL_ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_ReverseString.cpp; sourceTree = "<group>"; };
+		AF2EA7EF22C52277007D6A8B /* AL_HasCycleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_HasCycleList.cpp; sourceTree = "<group>"; };
 		AFD5E5BD22BB871E003AD25F /* LNAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LNAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD5E5C022BB871E003AD25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFD5E5C722BB8764003AD25F /* Algorithm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Algorithm.mm; sourceTree = "<group>"; };
@@ -40,8 +60,14 @@
 		AFD5E5D322BB8777003AD25F /* AL_PrintListFromTailToHead.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_PrintListFromTailToHead.cpp; sourceTree = "<group>"; };
 		AFD5E5D422BB8777003AD25F /* AL_CustomQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_CustomQueue.cpp; sourceTree = "<group>"; };
 		AFD5E5D522BB8777003AD25F /* AL_ReplaceSpace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_ReplaceSpace.cpp; sourceTree = "<group>"; };
-		AFE6F6C722C0CE1C0030B3C1 /* AL_quickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_quickSort.cpp; sourceTree = "<group>"; };
-		AFE6F6C922C0E63F0030B3C1 /* AL_bubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_bubbleSort.cpp; sourceTree = "<group>"; };
+		AFFEE26122CD07BA0049540F /* AL_Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_Fibonacci.cpp; sourceTree = "<group>"; };
+		AFFEE26322CD105F0049540F /* AL_GetIntersectionNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_GetIntersectionNode.cpp; sourceTree = "<group>"; };
+		AFFEE26522CDA51D0049540F /* AL_OtherSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_OtherSort.cpp; sourceTree = "<group>"; };
+		AFFEE26722CDA97B0049540F /* AL_UglyNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_UglyNumber.cpp; sourceTree = "<group>"; };
+		AFFEE26922CDAB350049540F /* AL_PowerOfTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_PowerOfTwo.cpp; sourceTree = "<group>"; };
+		AFFEE26B22CDAB5B0049540F /* AL_PowerOfThree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_PowerOfThree.cpp; sourceTree = "<group>"; };
+		AFFEE26D22CDAB8E0049540F /* AL_CountPrimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_CountPrimes.cpp; sourceTree = "<group>"; };
+		AFFEE27622CDD7560049540F /* AL_Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_Sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +115,20 @@
 			isa = PBXGroup;
 			children = (
 				AFD5E5CD22BB8777003AD25F /* AL_TwoSum.cpp */,
+				AFFEE26722CDA97B0049540F /* AL_UglyNumber.cpp */,
+				AFFEE26922CDAB350049540F /* AL_PowerOfTwo.cpp */,
+				AFFEE26B22CDAB5B0049540F /* AL_PowerOfThree.cpp */,
+				AFFEE26D22CDAB8E0049540F /* AL_CountPrimes.cpp */,
 				AFD5E5CC22BB8777003AD25F /* AL_AddTwoNumbers.cpp */,
 				AFD5E5CE22BB8777003AD25F /* AL_LongestSubstring.cpp */,
+				AF2EA7E322C4FB8E007D6A8B /* AL_InvertTree.cpp */,
+				AF2EA7EB22C50B28007D6A8B /* AL_SameTree.cpp */,
+				AF2EA7E522C4FD4B007D6A8B /* AL_MaxDepthTree.cpp */,
+				AF2EA7E722C4FFA4007D6A8B /* AL_BalancedTree.cpp */,
+				AF2EA7E922C507DF007D6A8B /* AL_SymmetricTree.cpp */,
+				AF2EA7ED22C516C0007D6A8B /* AL_ReverseString.cpp */,
+				AF2EA7EF22C52277007D6A8B /* AL_HasCycleList.cpp */,
+				AFFEE26322CD105F0049540F /* AL_GetIntersectionNode.cpp */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -104,6 +142,7 @@
 				AFD5E5D022BB8777003AD25F /* AL_ReConstructBinaryTree.cpp */,
 				AFD5E5D222BB8777003AD25F /* AL_MinNumberInRotateArray.cpp */,
 				AFD5E5D322BB8777003AD25F /* AL_PrintListFromTailToHead.cpp */,
+				AFFEE26122CD07BA0049540F /* AL_Fibonacci.cpp */,
 			);
 			path = Jianzhioffer;
 			sourceTree = "<group>";
@@ -111,8 +150,8 @@
 		AFE6F6C622C0CDD10030B3C1 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				AFE6F6C722C0CE1C0030B3C1 /* AL_quickSort.cpp */,
-				AFE6F6C922C0E63F0030B3C1 /* AL_bubbleSort.cpp */,
+				AFFEE27622CDD7560049540F /* AL_Sort.cpp */,
+				AFFEE26522CDA51D0049540F /* AL_OtherSort.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -173,9 +212,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE6F6C822C0CE1C0030B3C1 /* AL_quickSort.cpp in Sources */,
+				AF2EA7E622C4FD4B007D6A8B /* AL_MaxDepthTree.cpp in Sources */,
+				AFFEE26822CDA97B0049540F /* AL_UglyNumber.cpp in Sources */,
+				AF2EA7E822C4FFA4007D6A8B /* AL_BalancedTree.cpp in Sources */,
+				AF2EA7EC22C50B28007D6A8B /* AL_SameTree.cpp in Sources */,
+				AFFEE26222CD07BA0049540F /* AL_Fibonacci.cpp in Sources */,
+				AFFEE26E22CDAB8E0049540F /* AL_CountPrimes.cpp in Sources */,
 				AFD5E5C122BB871E003AD25F /* main.m in Sources */,
-				AFE6F6CA22C0E63F0030B3C1 /* AL_bubbleSort.cpp in Sources */,
+				AF2EA7E422C4FB8E007D6A8B /* AL_InvertTree.cpp in Sources */,
+				AF2EA7EE22C516C0007D6A8B /* AL_ReverseString.cpp in Sources */,
+				AFFEE26A22CDAB350049540F /* AL_PowerOfTwo.cpp in Sources */,
+				AFFEE26C22CDAB5B0049540F /* AL_PowerOfThree.cpp in Sources */,
+				AF2EA7F022C52277007D6A8B /* AL_HasCycleList.cpp in Sources */,
+				AFFEE27722CDD7560049540F /* AL_Sort.cpp in Sources */,
+				AFFEE26422CD105F0049540F /* AL_GetIntersectionNode.cpp in Sources */,
+				AFFEE26622CDA51D0049540F /* AL_OtherSort.cpp in Sources */,
+				AF2EA7EA22C507DF007D6A8B /* AL_SymmetricTree.cpp in Sources */,
 				AFD5E5CA22BB8764003AD25F /* Algorithm.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +350,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_VERSION = "";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -306,6 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_VERSION = "";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

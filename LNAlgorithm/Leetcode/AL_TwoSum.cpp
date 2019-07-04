@@ -6,10 +6,7 @@
 //  Copyright © 2019 vvusu. All rights reserved.
 //
 
-#include <stdio.h>
-#include <iostream>
-#include <vector>
-#include <unordered_map>
+#include "Algorithm.hpp"
 // unordered_map(无序映射)
 
 using namespace std;
@@ -47,6 +44,7 @@ static vector<int> twoSum(vector<int>& nums, int target)
     }
     return {};
 }
+
 
 static void twoSum_test()
 {

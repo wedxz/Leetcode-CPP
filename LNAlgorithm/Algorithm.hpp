@@ -9,11 +9,12 @@
 #ifndef Algorithm_hpp
 #define Algorithm_hpp
 
-#include <stdio.h>
 #include <iostream>
-#include <stack>
-#include <vector>
 #include <queue>
+#include <stack>
+#include <stdio.h>
+#include <unordered_map>
+#include <vector>
 
 using namespace std;
 
@@ -26,18 +27,30 @@ using namespace std;
 #endif
 
 // 单向链表
-struct ListNode
-{    
+struct ListNode {
     int val;
-    struct ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL)
+    {
+    }
     
     // 前序遍历
     static void PrintListNode(ListNode *node)
     {
-        if(node == NULL)  return;
-        cout <<" " <<node->val;
+        if (node == NULL) return;
+        cout << " " << node->val;
         PrintListNode(node->next);
+    }
+    
+    static int ListNodeCount(ListNode *node)
+    {
+        int count = 0;
+        ListNode *head = node;
+        while (head != NULL) {
+            count++;
+            head = head->next;
+        }
+        return count;
     }
 };
 
@@ -47,20 +60,22 @@ struct ListNode
  中序遍历：左子树 ---> 根结点 ---> 右子树   考察到一个节点后，将其暂存，遍历完左子树后，再输出该节点的值，然后遍历右子树。(左根右)
  后序遍历：左子树 ---> 右子树 ---> 根结点   考察到一个节点后，将其暂存，遍历完左右子树后，再输出该节点的值。(左右根)
  层次遍历：只需按层次遍历即可
-*/
-struct TreeNode
-{
+ */
+struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
     // 构造函数
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+    TreeNode(int x) : val(x), left(NULL), right(NULL)
+    {
+    }
     
     // 前序遍历 - 递归实现
     static void PreOrder(TreeNode *root)
     {
-        if(root == NULL) return;
-        cout <<" " <<root->val;
+        if (root == NULL)
+            return;
+        cout << " " << root->val;
         PreOrder(root->left);
         PreOrder(root->right);
     }
@@ -68,37 +83,36 @@ struct TreeNode
     // 中序遍历
     static void InOrder(TreeNode *root)
     {
-        if(root == NULL) return;
+        if (root == NULL)
+            return;
         InOrder(root->left);
-        cout <<" " <<root->val;
+        cout << " " << root->val;
         InOrder(root->right);
     }
     
     // 后序遍历
     static void PostOrder(TreeNode *root)
     {
-        if(root == NULL) return;
+        if (root == NULL)
+            return;
         PostOrder(root->left);
         PostOrder(root->right);
-        cout <<" " <<root->val;
+        cout << " " << root->val;
     }
     
     // 前序遍历 - 栈实现
     static void PreOrderByStack(TreeNode *root)
     {
-        if(root == NULL) return;
+        if (root == NULL)
+            return;
         stack<TreeNode *> st;
         TreeNode *p = root;
-        while (p != NULL || !st.empty())
-        {
-            if (p != NULL)
-            {
-                cout <<" " <<p->val;
+        while (p != NULL || !st.empty()) {
+            if (p != NULL) {
+                cout << " " << p->val;
                 st.push(p);
                 p = p->left;
-            }
-            else
-            {
+            } else {
                 p = st.top();
                 st.pop();
                 p = p->right;
@@ -109,49 +123,40 @@ struct TreeNode
     // 中序遍历 - 栈实现
     static void InOrderByStack(TreeNode *root)
     {
-        if(root == NULL) return;
+        if (root == NULL)
+            return;
         stack<TreeNode *> st;
         TreeNode *p = root;
-        while (p != NULL || !st.empty())
-        {
-            if (p != NULL)
-            {
+        while (p != NULL || !st.empty()) {
+            if (p != NULL) {
                 st.push(p);
                 p = p->left;
-            }
-            else
-            {
+            } else {
                 p = st.top();
-                cout <<" " <<p->val;
+                cout << " " << p->val;
                 st.pop();
                 p = p->right;
             }
         }
     }
-
+    
     // 后序遍历 - 栈实现
     static void PostOrderByStack(TreeNode *root)
     {
-        if(root == NULL)  return;
+        if (root == NULL)
+            return;
         stack<TreeNode *> st;
         TreeNode *p = root, *q = NULL;
-        while (p != NULL || !st.empty())
-        {
-            if (p != NULL)
-            {
+        while (p != NULL || !st.empty()) {
+            if (p != NULL) {
                 st.push(p);
                 p = p->left;
-            }
-            else
-            {
+            } else {
                 p = st.top();
-                if (p->right != NULL && p->right != q)
-                {
+                if (p->right != NULL && p->right != q) {
                     p = p->right;
-                }
-                else
-                {
-                    cout <<" " <<p->val;
+                } else {
+                    cout << " " << p->val;
                     st.pop();
                     q = p;
                     p = NULL;
@@ -165,19 +170,21 @@ struct TreeNode
     // 后序遍历 - 栈实现
     static void levelOrder(TreeNode *root)
     {
-        if(root == NULL) return;
+        if (root == NULL)
+            return;
         // 队列
         queue<TreeNode *> q;
         q.push(root);
         TreeNode *p;
-        while (!q.empty())
-        {
+        while (!q.empty()) {
             // 访问队首元素  q.back() 访问队尾元素q
             p = q.front();
             q.pop();
-            cout <<" " <<p->val;
-            if (p->left != NULL) q.push(p->left);
-            if (p->right != NULL) q.push(p->right);
+            cout << " " << p->val;
+            if (p->left != NULL)
+                q.push(p->left);
+            if (p->right != NULL)
+                q.push(p->right);
         }
     }
     
@@ -185,36 +192,23 @@ struct TreeNode
     // 其实深度遍历就是上面的前序、中序和后序。但是为了保证与广度优先遍历相照应，也写在这。代码也比较好理解，其实就是前序遍历
     static void DepthOrder(TreeNode *root)
     {
-        if (root == NULL) return;
+        if (root == NULL)
+            return;
         TreeNode *p;
         stack<TreeNode *> st;
         st.push(root);
-        while (!st.empty())
-        {
+        while (!st.empty()) {
             p = st.top();
-            cout <<" " <<p->val;
+            cout << " " << p->val;
             st.pop();
-            if (p->right != NULL)
-            {
+            if (p->right != NULL) {
                 st.push(p->right);
             }
-            if (p->left != NULL)
-            {
+            if (p->left != NULL) {
                 st.push(p->left);
             }
         }
     }
 };
 
-
 #endif /* Algorithm_hpp */
-
-/*
- 
- 描述:
- 
- 示例:
- 
- 解题思路:
- 
- */
