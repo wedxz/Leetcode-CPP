@@ -74,6 +74,15 @@ static vector<int> printListFromTailToHead(struct ListNode* head)
 }
 
 
+static ListNode* printListFromTailToHead2(ListNode* head)
+{
+    if (head == NULL|| head->next == NULL) return head;
+    ListNode *newHead = printListFromTailToHead2(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return newHead;
+}
+
 // Test
 static void printListFromTailToHead_test()
 {

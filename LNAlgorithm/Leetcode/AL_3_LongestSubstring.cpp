@@ -13,6 +13,7 @@
 using namespace std;
 /*
  无重复字符的最长子串
+ https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/
  
  描述:
  给定一个字符串，找出不含有重复字符的最长子串的长度。
@@ -33,16 +34,13 @@ static int lengthOfLongestSubstring(string s)
 {
     set<char> cache;
     int maxlen = 0;
-    int left   = 0;
-    int index  = 0;
+    int left = 0;
+    int index = 0;
     while (index < s.size()) {
-        if (cache.find(s[index]) == cache.end())
-        {
+        if (cache.find(s[index]) == cache.end()) {
             cache.insert(s[index++]);
             maxlen = max(maxlen, (int)cache.size());
-        }
-        else
-        {
+        } else {
             cache.erase(s[left++]);
         }
     }
@@ -54,6 +52,6 @@ static void lengthOfLongestSubstring_test()
 {
     //    string str = "abcabcbb";
     string str = "bbbbbbb";
-    int lenth  = lengthOfLongestSubstring(str);
+    int lenth = lengthOfLongestSubstring(str);
     cout << "无重复字符的最长子串:" << str << "\n" << lenth << endl;
 }

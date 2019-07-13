@@ -12,45 +12,45 @@
 #include "Sort/AL_Sort.cpp"
 
 // 剑指Offer
-#include "Jianzhioffer/AL_CustomQueue.cpp"
-#include "Jianzhioffer/AL_Fibonacci.cpp"
-#include "Jianzhioffer/AL_MinNumberInRotateArray.cpp"
-#include "Jianzhioffer/AL_PrintListFromTailToHead.cpp"
-#include "Jianzhioffer/AL_ReConstructBinaryTree.cpp"
-#include "Jianzhioffer/AL_ReplaceSpace.cpp"
-#include "Jianzhioffer/AL_TwoArrayFind.cpp"
+#include "Jianzhioffer/AL_3_TwoArrayFind.cpp"
+#include "Jianzhioffer/AL_4_ReplaceSpace.cpp"
+#include "Jianzhioffer/AL_5_PrintListFromTailToHead.cpp"
+#include "Jianzhioffer/AL_6_ReConstructBinaryTree.cpp"
+#include "Jianzhioffer/AL_7_CustomQueue.cpp"
+#include "Jianzhioffer/AL_8_MinNumberInRotateArray.cpp"
+#include "Jianzhioffer/AL_9_Fibonacci.cpp"
 
 // Leetcode
-#include "Leetcode/AL_AddTwoNumbers.cpp"
-#include "Leetcode/AL_BalancedTree.cpp"
-#include "Leetcode/AL_GetIntersectionNode.cpp"
-#include "Leetcode/AL_HasCycleList.cpp"
-#include "Leetcode/AL_InvertTree.cpp"
-#include "Leetcode/AL_LongestSubstring.cpp"
-#include "Leetcode/AL_MaxDepthTree.cpp"
-#include "Leetcode/AL_ReverseString.cpp"
-#include "Leetcode/AL_SameTree.cpp"
-#include "Leetcode/AL_SymmetricTree.cpp"
-#include "Leetcode/AL_TwoSum.cpp"
-#include "Leetcode/AL_UglyNumber.cpp"
-#include "Leetcode/AL_PowerOfTwo.cpp"
-#include "Leetcode/AL_PowerOfThree.cpp"
-#include "Leetcode/AL_CountPrimes.cpp"
+#include "Leetcode/AL_1_TwoSum.cpp"
+#include "Leetcode/AL_2_AddTwoNumbers.cpp"
+#include "Leetcode/AL_3_LongestSubstring.cpp"
+#include "Leetcode/AL_83_DeleteDuplicates.cpp"
+#include "Leetcode/AL_100_SameTree.cpp"
+#include "Leetcode/AL_101_SymmetricTree.cpp"
+#include "Leetcode/AL_104_MaxDepthTree.cpp"
+#include "Leetcode/AL_110_BalancedTree.cpp"
+#include "Leetcode/AL_141_HasCycleList.cpp"
+#include "Leetcode/AL_160_GetIntersectionNode.cpp"
+#include "Leetcode/AL_203_RemoveElements.cpp"
+#include "Leetcode/AL_204_CountPrimes.cpp"
+#include "Leetcode/AL_226_InvertTree.cpp"
+#include "Leetcode/AL_231_PowerOfTwo.cpp"
+#include "Leetcode/AL_263_UglyNumber.cpp"
+#include "Leetcode/AL_326_PowerOfThree.cpp"
+#include "Leetcode/AL_344_ReverseString.cpp"
 
 @interface Algorithm ()
 @end
 
 @implementation Algorithm
 
-- (void)dealloc
-{
-}
+- (void)dealloc {}
 
 - (void)run
 {
     [self sort];
-//    [self jianzhioffer];
-//    [self leetcode];
+    [self jianzhioffer];
+    [self leetcode];
 }
 
 #pragma mark - 基础排序算法
@@ -58,11 +58,9 @@
 - (void)sort
 {
     sortTest();
-    
     // 二分法查找
-//    binarySearch_test();
+    //    binarySearch_test();
 }
-
 
 #pragma mark - 剑指Offer
 - (void)jianzhioffer
@@ -92,30 +90,22 @@
 #pragma mark - Leetcode
 - (void)leetcode
 {
-//    // 001 -
-//    twoSum_test();
-//
-//    addTwoNumbers_test();
-//
-//    lengthOfLongestSubstring_test();
-    
     [self leetcode_math];
-//    [self leetcode_list];
-//    [self leetcode_tree];
-//    [self leetcode_array];
-//    [self leetcode_string];
+    [self leetcode_list];
+    [self leetcode_tree];
+    [self leetcode_array];
+    [self leetcode_string];
 }
-
 
 #pragma mark - 数学相关问题
 - (void)leetcode_math
 {
     // 204 - Count Primes （质数的个数）
     countPrimes_test();
-
+    
     // 231 - Is Power Of Two（是否是2的幂）
     powerOfTwo_test();
-
+    
     // 263 - Is Ugly Number（是否是丑数）
     uglyNumber_test();
     
@@ -131,12 +121,22 @@
     
     // 160 - Intersection Of Two Linked Lists (两个链表是否有交点)
     getIntersectionNode_test();
+    
+    // 203 - 删除链表中的值
+    removeElements_test();
 }
 
 #pragma mark - 数组相关问题
 - (void)leetcode_array
 {
+    // 001 - 1. Two Sum
+    twoSum_test();
     
+    // 002 - 2. Add Two Numbers
+    addTwoNumbers_test();
+    
+    // 003 - 3. Longest Substring Without Repeating Characters
+    lengthOfLongestSubstring_test();
 }
 
 #pragma mark - 字符串相关问题
