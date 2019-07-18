@@ -36,7 +36,3 @@ static bool symmetricTree(TreeNode *root)
     }
     return checkLeftAndRightNodes(root->left, root->right);
 }
-
-static void symmetricTree_test()
-{
-}

@@ -23,7 +23,3 @@ static int maxDepthTree(TreeNode *root)
     int r = maxDepthTree(root->right);
     return l > r ? l + 1 : r + 1;
 }
-
-static void maxDepthTree_test()
-{
-}

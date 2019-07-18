@@ -35,7 +35,3 @@ static bool sameTree(TreeNode *p, TreeNode *q)
         return sameTree(p->left, q->left) && sameTree(p->right, q->right);
     }
 }
-
-static void sameTree_test()
-{
-}

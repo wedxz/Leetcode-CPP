@@ -116,6 +116,8 @@
 #pragma mark - 链表相关问题
 - (void)leetcode_list
 {
+    // 083 -
+    
     // 141 - Linked List Cycle (链表是否有环)
     hasCycleList_test();
     
@@ -150,19 +152,10 @@
 - (void)leetcode_tree
 {
     // 100 - Is Same Tree（树是否相等）
-    sameTree_test();
-    
     // 101 - Symmetric Tree（是否是镜像树）
-    symmetricTree_test();
-    
     // 104 - Maximum Depth of Binary Tree（二叉树的深度）
-    maxDepthTree_test();
-    
     // 110 - Balanced Binary Tree（是否是平衡二叉树）
-    balancedTree_test();
-    
     // 226 - Invert Binary Tree（反转二叉树）
-    invertTree_test();
 }
 
 @end

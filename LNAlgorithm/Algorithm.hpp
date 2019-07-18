@@ -73,8 +73,7 @@ struct TreeNode {
     // 前序遍历 - 递归实现
     static void PreOrder(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         cout << " " << root->val;
         PreOrder(root->left);
         PreOrder(root->right);
@@ -83,8 +82,7 @@ struct TreeNode {
     // 中序遍历
     static void InOrder(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         InOrder(root->left);
         cout << " " << root->val;
         InOrder(root->right);
@@ -93,8 +91,7 @@ struct TreeNode {
     // 后序遍历
     static void PostOrder(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         PostOrder(root->left);
         PostOrder(root->right);
         cout << " " << root->val;
@@ -103,8 +100,7 @@ struct TreeNode {
     // 前序遍历 - 栈实现
     static void PreOrderByStack(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         stack<TreeNode *> st;
         TreeNode *p = root;
         while (p != NULL || !st.empty()) {
@@ -123,8 +119,7 @@ struct TreeNode {
     // 中序遍历 - 栈实现
     static void InOrderByStack(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         stack<TreeNode *> st;
         TreeNode *p = root;
         while (p != NULL || !st.empty()) {
@@ -143,8 +138,7 @@ struct TreeNode {
     // 后序遍历 - 栈实现
     static void PostOrderByStack(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         stack<TreeNode *> st;
         TreeNode *p = root, *q = NULL;
         while (p != NULL || !st.empty()) {
@@ -170,8 +164,7 @@ struct TreeNode {
     // 后序遍历 - 栈实现
     static void levelOrder(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         // 队列
         queue<TreeNode *> q;
         q.push(root);
@@ -192,8 +185,7 @@ struct TreeNode {
     // 其实深度遍历就是上面的前序、中序和后序。但是为了保证与广度优先遍历相照应，也写在这。代码也比较好理解，其实就是前序遍历
     static void DepthOrder(TreeNode *root)
     {
-        if (root == NULL)
-            return;
+        if (root == NULL) return;
         TreeNode *p;
         stack<TreeNode *> st;
         st.push(root);

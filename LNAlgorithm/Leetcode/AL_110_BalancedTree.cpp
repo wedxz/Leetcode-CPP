@@ -39,8 +39,3 @@ static bool balancedTree(TreeNode *root)
         }
     }
 }
-
-static void balancedTree_test()
-{
-    
-}

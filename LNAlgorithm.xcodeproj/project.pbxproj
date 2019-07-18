@@ -14,6 +14,18 @@
 		AF2EA7EC22C50B28007D6A8B /* AL_100_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EB22C50B28007D6A8B /* AL_100_SameTree.cpp */; };
 		AF2EA7EE22C516C0007D6A8B /* AL_344_ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7ED22C516C0007D6A8B /* AL_344_ReverseString.cpp */; };
 		AF2EA7F022C52277007D6A8B /* AL_141_HasCycleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EF22C52277007D6A8B /* AL_141_HasCycleList.cpp */; };
+		AFC7D2BE22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2BD22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp */; };
+		AFC7D2C022D9E33D00FCD85C /* AL_206_ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2BF22D9E33D00FCD85C /* AL_206_ReverseList.cpp */; };
+		AFC7D2C222D9E65500FCD85C /* AL_237_DeleteListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C122D9E65500FCD85C /* AL_237_DeleteListNode.cpp */; };
+		AFC7D2C422DB741500FCD85C /* AL_856_ScoreOfParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C322DB741500FCD85C /* AL_856_ScoreOfParentheses.cpp */; };
+		AFC7D2C622DC1CCE00FCD85C /* AL_150_EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C522DC1CCE00FCD85C /* AL_150_EvaluateReversePolishNotation.cpp */; };
+		AFC7D2C822DC24AD00FCD85C /* AL_224_BasicCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C722DC24AD00FCD85C /* AL_224_BasicCalculator.cpp */; };
+		AFC7D2CA22DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C922DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp */; };
+		AFC7D2CC22DDFD5D00FCD85C /* AL_144_BTPreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2CB22DDFD5D00FCD85C /* AL_144_BTPreorderTraversal.cpp */; };
+		AFC7D2CE22DF443600FCD85C /* AL_94_BTInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2CD22DF443600FCD85C /* AL_94_BTInorderTraversal.cpp */; };
+		AFC7D2D022DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2CF22DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp */; };
+		AFC7D2D222DF80BA00FCD85C /* AL_102_BTLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2D122DF80BA00FCD85C /* AL_102_BTLevelOrderTraversal.cpp */; };
+		AFC7D2D422E0C5B800FCD85C /* AL_104_MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2D322E0C5B800FCD85C /* AL_104_MaximumDepthOfBinaryTree.cpp */; };
 		AFD5E5C122BB871E003AD25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD5E5C022BB871E003AD25F /* main.m */; };
 		AFD5E5CA22BB8764003AD25F /* Algorithm.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFD5E5C722BB8764003AD25F /* Algorithm.mm */; };
 		AFFEE26222CD07BA0049540F /* AL_9_Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFFEE26122CD07BA0049540F /* AL_9_Fibonacci.cpp */; };
@@ -48,6 +60,18 @@
 		AF2EA7EB22C50B28007D6A8B /* AL_100_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_100_SameTree.cpp; sourceTree = "<group>"; };
 		AF2EA7ED22C516C0007D6A8B /* AL_344_ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_344_ReverseString.cpp; sourceTree = "<group>"; };
 		AF2EA7EF22C52277007D6A8B /* AL_141_HasCycleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_141_HasCycleList.cpp; sourceTree = "<group>"; };
+		AFC7D2BD22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_876_MiddleOfTheLinkedList.cpp; sourceTree = "<group>"; };
+		AFC7D2BF22D9E33D00FCD85C /* AL_206_ReverseList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_206_ReverseList.cpp; sourceTree = "<group>"; };
+		AFC7D2C122D9E65500FCD85C /* AL_237_DeleteListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_237_DeleteListNode.cpp; sourceTree = "<group>"; };
+		AFC7D2C322DB741500FCD85C /* AL_856_ScoreOfParentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_856_ScoreOfParentheses.cpp; sourceTree = "<group>"; };
+		AFC7D2C522DC1CCE00FCD85C /* AL_150_EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_150_EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
+		AFC7D2C722DC24AD00FCD85C /* AL_224_BasicCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_224_BasicCalculator.cpp; sourceTree = "<group>"; };
+		AFC7D2C922DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_225_ImplementStackUsingQueues.cpp; sourceTree = "<group>"; };
+		AFC7D2CB22DDFD5D00FCD85C /* AL_144_BTPreorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_144_BTPreorderTraversal.cpp; sourceTree = "<group>"; };
+		AFC7D2CD22DF443600FCD85C /* AL_94_BTInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_94_BTInorderTraversal.cpp; sourceTree = "<group>"; };
+		AFC7D2CF22DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_145_BTPostorderTraversal.cpp; sourceTree = "<group>"; };
+		AFC7D2D122DF80BA00FCD85C /* AL_102_BTLevelOrderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_102_BTLevelOrderTraversal.cpp; sourceTree = "<group>"; };
+		AFC7D2D322E0C5B800FCD85C /* AL_104_MaximumDepthOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_104_MaximumDepthOfBinaryTree.cpp; sourceTree = "<group>"; };
 		AFD5E5BD22BB871E003AD25F /* LNAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LNAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD5E5C022BB871E003AD25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFD5E5C722BB8764003AD25F /* Algorithm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Algorithm.mm; sourceTree = "<group>"; };
@@ -127,14 +151,26 @@
 				AF2EA7E522C4FD4B007D6A8B /* AL_104_MaxDepthTree.cpp */,
 				AF2EA7E722C4FFA4007D6A8B /* AL_110_BalancedTree.cpp */,
 				AF2EA7EF22C52277007D6A8B /* AL_141_HasCycleList.cpp */,
+				AFC7D2CD22DF443600FCD85C /* AL_94_BTInorderTraversal.cpp */,
+				AFC7D2D122DF80BA00FCD85C /* AL_102_BTLevelOrderTraversal.cpp */,
+				AFC7D2D322E0C5B800FCD85C /* AL_104_MaximumDepthOfBinaryTree.cpp */,
+				AFC7D2CB22DDFD5D00FCD85C /* AL_144_BTPreorderTraversal.cpp */,
+				AFC7D2CF22DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp */,
+				AFC7D2C522DC1CCE00FCD85C /* AL_150_EvaluateReversePolishNotation.cpp */,
 				AFFEE26322CD105F0049540F /* AL_160_GetIntersectionNode.cpp */,
 				AFFEE27822CE4EF10049540F /* AL_203_RemoveElements.cpp */,
 				AFFEE26D22CDAB8E0049540F /* AL_204_CountPrimes.cpp */,
+				AFC7D2BF22D9E33D00FCD85C /* AL_206_ReverseList.cpp */,
+				AFC7D2C722DC24AD00FCD85C /* AL_224_BasicCalculator.cpp */,
+				AFC7D2C922DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp */,
 				AF2EA7E322C4FB8E007D6A8B /* AL_226_InvertTree.cpp */,
 				AFFEE26922CDAB350049540F /* AL_231_PowerOfTwo.cpp */,
+				AFC7D2C122D9E65500FCD85C /* AL_237_DeleteListNode.cpp */,
 				AFFEE26722CDA97B0049540F /* AL_263_UglyNumber.cpp */,
 				AFFEE26B22CDAB5B0049540F /* AL_326_PowerOfThree.cpp */,
 				AF2EA7ED22C516C0007D6A8B /* AL_344_ReverseString.cpp */,
+				AFC7D2C322DB741500FCD85C /* AL_856_ScoreOfParentheses.cpp */,
+				AFC7D2BD22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -218,22 +254,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC7D2C822DC24AD00FCD85C /* AL_224_BasicCalculator.cpp in Sources */,
 				AF2EA7E622C4FD4B007D6A8B /* AL_104_MaxDepthTree.cpp in Sources */,
 				AFFEE26822CDA97B0049540F /* AL_263_UglyNumber.cpp in Sources */,
+				AFC7D2BE22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp in Sources */,
+				AFC7D2CC22DDFD5D00FCD85C /* AL_144_BTPreorderTraversal.cpp in Sources */,
+				AFC7D2C422DB741500FCD85C /* AL_856_ScoreOfParentheses.cpp in Sources */,
 				AFFEE27B22CE502A0049540F /* AL_83_DeleteDuplicates.cpp in Sources */,
+				AFC7D2D422E0C5B800FCD85C /* AL_104_MaximumDepthOfBinaryTree.cpp in Sources */,
+				AFC7D2CE22DF443600FCD85C /* AL_94_BTInorderTraversal.cpp in Sources */,
 				AF2EA7E822C4FFA4007D6A8B /* AL_110_BalancedTree.cpp in Sources */,
 				AF2EA7EC22C50B28007D6A8B /* AL_100_SameTree.cpp in Sources */,
 				AFFEE26222CD07BA0049540F /* AL_9_Fibonacci.cpp in Sources */,
+				AFC7D2C622DC1CCE00FCD85C /* AL_150_EvaluateReversePolishNotation.cpp in Sources */,
 				AFFEE26E22CDAB8E0049540F /* AL_204_CountPrimes.cpp in Sources */,
+				AFC7D2C222D9E65500FCD85C /* AL_237_DeleteListNode.cpp in Sources */,
 				AFD5E5C122BB871E003AD25F /* main.m in Sources */,
 				AF2EA7E422C4FB8E007D6A8B /* AL_226_InvertTree.cpp in Sources */,
 				AF2EA7EE22C516C0007D6A8B /* AL_344_ReverseString.cpp in Sources */,
 				AFFEE26A22CDAB350049540F /* AL_231_PowerOfTwo.cpp in Sources */,
 				AFFEE26C22CDAB5B0049540F /* AL_326_PowerOfThree.cpp in Sources */,
 				AF2EA7F022C52277007D6A8B /* AL_141_HasCycleList.cpp in Sources */,
+				AFC7D2C022D9E33D00FCD85C /* AL_206_ReverseList.cpp in Sources */,
 				AFFEE27722CDD7560049540F /* AL_Sort.cpp in Sources */,
+				AFC7D2D222DF80BA00FCD85C /* AL_102_BTLevelOrderTraversal.cpp in Sources */,
 				AFFEE26422CD105F0049540F /* AL_160_GetIntersectionNode.cpp in Sources */,
 				AFFEE26622CDA51D0049540F /* AL_OtherSort.cpp in Sources */,
+				AFC7D2CA22DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp in Sources */,
+				AFC7D2D022DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp in Sources */,
 				AF2EA7EA22C507DF007D6A8B /* AL_101_SymmetricTree.cpp in Sources */,
 				AFD5E5CA22BB8764003AD25F /* Algorithm.mm in Sources */,
 				AFFEE27922CE4EF10049540F /* AL_203_RemoveElements.cpp in Sources */,
