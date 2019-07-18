@@ -51,5 +51,17 @@ public:
         }
         return heigh;
     }
-};
+    
+    
+    // 2
+    static int maxDepthTree(TreeNode *root)
+    {
+        if (root == NULL) {
+            return 0;
+        }
+        int l = maxDepthTree(root->left);
+        int r = maxDepthTree(root->right);
+        return l > r ? l + 1 : r + 1;
+    }
 
+};
