@@ -13,6 +13,7 @@
 		AF2EA7EC22C50B28007D6A8B /* AL_100_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EB22C50B28007D6A8B /* AL_100_SameTree.cpp */; };
 		AF2EA7EE22C516C0007D6A8B /* AL_344_ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7ED22C516C0007D6A8B /* AL_344_ReverseString.cpp */; };
 		AF2EA7F022C52277007D6A8B /* AL_141_HasCycleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA7EF22C52277007D6A8B /* AL_141_HasCycleList.cpp */; };
+		AFAD962522E41F21005BFA22 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAD962422E41F21005BFA22 /* NSString+Tool.m */; };
 		AFC7D2BE22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2BD22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp */; };
 		AFC7D2C022D9E33D00FCD85C /* AL_206_ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2BF22D9E33D00FCD85C /* AL_206_ReverseList.cpp */; };
 		AFC7D2C222D9E65500FCD85C /* AL_237_DeleteListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC7D2C122D9E65500FCD85C /* AL_237_DeleteListNode.cpp */; };
@@ -58,6 +59,8 @@
 		AF2EA7EB22C50B28007D6A8B /* AL_100_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_100_SameTree.cpp; sourceTree = "<group>"; };
 		AF2EA7ED22C516C0007D6A8B /* AL_344_ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_344_ReverseString.cpp; sourceTree = "<group>"; };
 		AF2EA7EF22C52277007D6A8B /* AL_141_HasCycleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_141_HasCycleList.cpp; sourceTree = "<group>"; };
+		AFAD962322E41F21005BFA22 /* NSString+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		AFAD962422E41F21005BFA22 /* NSString+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
 		AFC7D2BD22D9E1A400FCD85C /* AL_876_MiddleOfTheLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_876_MiddleOfTheLinkedList.cpp; sourceTree = "<group>"; };
 		AFC7D2BF22D9E33D00FCD85C /* AL_206_ReverseList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_206_ReverseList.cpp; sourceTree = "<group>"; };
 		AFC7D2C122D9E65500FCD85C /* AL_237_DeleteListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AL_237_DeleteListNode.cpp; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				AFD5E5C922BB8764003AD25F /* Algorithm.h */,
 				AFD5E5C722BB8764003AD25F /* Algorithm.mm */,
 				AFD5E5C822BB8764003AD25F /* Algorithm.hpp */,
+				AFAD962322E41F21005BFA22 /* NSString+Tool.h */,
+				AFAD962422E41F21005BFA22 /* NSString+Tool.m */,
 				AFE6F6C622C0CDD10030B3C1 /* Sort */,
 				AFD5E5CB22BB8777003AD25F /* Leetcode */,
 				AFD5E5CF22BB8777003AD25F /* Jianzhioffer */,
@@ -278,6 +283,7 @@
 				AFFEE26622CDA51D0049540F /* AL_OtherSort.cpp in Sources */,
 				AFC7D2CA22DC786700FCD85C /* AL_225_ImplementStackUsingQueues.cpp in Sources */,
 				AFC7D2D022DF45DC00FCD85C /* AL_145_BTPostorderTraversal.cpp in Sources */,
+				AFAD962522E41F21005BFA22 /* NSString+Tool.m in Sources */,
 				AF2EA7EA22C507DF007D6A8B /* AL_101_SymmetricTree.cpp in Sources */,
 				AFD5E5CA22BB8764003AD25F /* Algorithm.mm in Sources */,
 				AFFEE27922CE4EF10049540F /* AL_203_RemoveElements.cpp in Sources */,

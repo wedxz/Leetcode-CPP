@@ -38,6 +38,8 @@
 #include "Leetcode/AL_326_PowerOfThree.cpp"
 #include "Leetcode/AL_344_ReverseString.cpp"
 
+#import "NSString+Tool.h"
+
 @interface Algorithm ()
 @end
 
@@ -47,9 +49,10 @@
 
 - (void)run
 {
+    [NSString testLengthOfLongestSubstring];
     [self sort];
-    [self jianzhioffer];
-    [self leetcode];
+//    [self jianzhioffer];
+//    [self leetcode];
 }
 
 #pragma mark - 基础排序算法

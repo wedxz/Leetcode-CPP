@@ -32,7 +32,7 @@ static void printSrotArray(vector<int> &v, string name)
     cout << endl;
 }
 
-//
+// 测试数组
 static vector<int> sortTestArr()
 {
     int a[] = {3, 5, 7, 9, 2, 3, 1, 0, 7, 5, 4};
@@ -92,6 +92,7 @@ static void quickSortA(vector<int> &arr, int low, int high)
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+//        swap(arr[i], arr[j]);
     }
     /*中枢值与j对应值交换*/
     int temp = arr[low];
